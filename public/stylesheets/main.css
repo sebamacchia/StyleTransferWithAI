@@ -19,8 +19,8 @@ a:hover {
 
 .container {
     background: rgba(19, 35, 47, .9);
-    padding: 15px;
-    max-width: 600px;
+    padding: 20px;
+    width: 96vw;
     height: 96vh;
     margin: 10px auto;
     border-radius: 4px;
