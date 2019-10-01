@@ -19,8 +19,9 @@ a:hover {
 
 .container {
     background: rgba(19, 35, 47, .9);
-    padding: 40px;
+    padding: 15px;
     max-width: 600px;
+    height: 96vh;
     margin: 10px auto;
     border-radius: 4px;
     box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
@@ -29,11 +30,16 @@ a:hover {
 h1 {
     text-align: center;
     color: #fff;
-    font-weight: 300;
-    margin: 0 0 40px;
+    font-size: 4rem;
+    margin: 0 0 10px;
 }
 
 img,
 canvas {
-    margin: 5px
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vh;
+    height: auto;
 }
