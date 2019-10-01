@@ -10,11 +10,12 @@
 <body>
 
     <!-- <% include ../partials/nav.ejs %> -->
-
-    <img id="content" height="256" src="/sebas.jpg" />
-    <img id="style" height="256" src="/01vangFACE.jpg" />
-    <canvas id="stylized" height="256"></canvas>
-
+    <div class="container">
+        <h1>STYLEAME APP</h1>
+        <img id="content" height="256" src="/sebas.jpg" />
+        <img id="style" height="256" src="/01vangFACE.jpg" />
+        <canvas id="stylized" height="256"></canvas>
+    </div>
     <script>
         const model = new mi.ArbitraryStyleTransferNetwork();
         const contentImg = document.getElementById('content');
