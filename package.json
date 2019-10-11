@@ -12,7 +12,9 @@
     },
     "dependencies": {
         "ejs": "^2.7.1",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "opencv4nodejs": "^4.7.3",
+        "socket.io": "^2.1.1"
     },
     "devDependencies": {
         "request": "^2.81.0",
